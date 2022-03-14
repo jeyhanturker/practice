@@ -1,0 +1,54 @@
+/* stylesheet for constitution.html */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+</style>
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer p {
+  font-size: 14 px;
+  color: #666;
+  letter-spacing: 4px;
+}
+
+#preamble {
+  background-color: rgba(14, 31, 65, 0.2);
+}
+
+#preamble p {
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px pink;
+}
+
+.alt-bg {
+  background-color: rgba(201, 53, 68, 0.2);
+}
+
+a:link {
+  color: rgb(14, 31, 65);
+}
+
+a:visited {
+  color: hsla(200, 0%, 50%, .7);
+}
+
+a:hover {
+  color: rgb(201, 53, 68);
+}
+
+a:active {
+  color: rgb(245, 188, 78);
+}
